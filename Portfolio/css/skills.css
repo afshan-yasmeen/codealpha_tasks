@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: black;   */
+  /* background: linear-gradient(45deg, #2196f3, #e91e63); */
+   
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container2 {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 80%;
+}
+
+/* .left, .right {
+  width: 45%;
+} */
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-bar {
+  margin-bottom: 20px;
+}
+
+.skill-label {
+  margin-bottom: 5px;
+}
+
+.progress {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  overflow: hidden;
+  height: 15px;
+  position: relative;
+}
+
+.progress-value {
+  height: 100%;
+  width: 0;
+  background-color: #e91e63; /* Applying #e91e63 for horizontal bar */
+  transition: width 2s ease; /* Adding smooth transition */
+}
+
+.right .circle-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing between circles */
+  justify-content: center;
+ 
+
+}
+
+.circle {
+  position: relative;
+  width: 120px;
+  margin-top: 10px;
+  height: 120px;
+  background: conic-gradient(#2196f3 0%, rgba(255, 255, 255, 0.2) 0% 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 2s ease;
+  
+}
+
+.circle-inner {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-name {
+  position: absolute;
+  bottom: -30px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}

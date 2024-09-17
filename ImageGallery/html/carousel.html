@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Image Gallery</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h1 style="text-align: center;  ">Slideshow</h1>
+   
+  <div class="gallery-container" >
+     <button class="prev" onclick="prevImage()">&#10094;</button>
+
+    <img id="gallery-image" src="../images/image1.jpg" alt="Image Gallery" class="gallery-image" onclick="openModal()">
+
+    <button class="next" onclick="nextImage()">&#10095;</button>
+  </div>
+
+  <div class="thumbnail-container">
+    <img src="../images/image1.jpg" alt="Image 1" class="thumbnail" onclick="currentImage(1)">
+    <img src="../images/image2.jpg" alt="Image 2" class="thumbnail" onclick="currentImage(2)">
+    <img src="../images/image3.jpg" alt="Image 3" class="thumbnail" onclick="currentImage(3)">
+    <img src="../images/image4.jpg" alt="Image 4" class="thumbnail" onclick="currentImage(4)">
+    <img src="../images/image5.jpg" alt="Image 5" class="thumbnail" onclick="currentImage(5)">
+  </div>
+
+  <button id="play-pause-btn" onclick="toggleSlideshow()">Pause Slideshow</button>
+
+  <!-- Full-screen Modal -->
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img id="modal-content" class="modal-image">
+  </div>
+
+  <script src="../javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.back-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
+
+.image-detail img {
+    width: 100%;
+    max-width: 600px;
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.image-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.image-detail p {
+    font-size: 18px;
+}
