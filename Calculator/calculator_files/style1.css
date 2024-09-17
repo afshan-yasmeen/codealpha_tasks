@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    border: 2px solid yellow;
+    margin: 50px 450px;
+    border-radius: 5px;
+    background-color: rgb(50, 48, 48);
+    padding: 10px;
+}
+
+input {
+    width: 80%;
+    margin: 10px;
+    height: 60px;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    font-size: 40px;
+    color: yellow;
+
+}
+
+div {
+    background-color: rgb(50, 48, 48);
+}
+
+.numberButton{
+height: 70px;
+width: 80px;
+border-radius: 8px;
+font-size: 30px;
+background-color: rgba(72, 71, 71, 0.4);
+margin: 5px;
+}
+
+#operator{
+    background-color: yellow;
+    color: black;
+}
